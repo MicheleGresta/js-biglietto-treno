@@ -18,9 +18,9 @@ const fullPrice = (userKm * 0.21);
 
    
     if(userAge > userOld) {
-        console.log("Rientra nella categoria più adulta, pertanto è previsto uno sconto del 40%, per un totale da pagare di " + totSconto40 + "€.");
+        document.getElementById("costo-viaggio").innerHTML = "Rientra nella categoria più adulta, pertanto è previsto uno sconto del 40%, per un totale da pagare di " + totSconto40 + "€.";
     } else if (userAge < userYoung) {
-        console.log("Rientra nella categoria più giovane, pertanto le aspetta uno sconto del 20%, per un totale da pagare di " + totSconto20 + "€.");
+        document.getElementById("costo-viaggio").innerHTML ="Rientra nella categoria più giovane, pertanto le aspetta uno sconto del 20%, per un totale da pagare di " + totSconto20 + "€.";
     } else {
-        console.log("Il prezzo del biglietto per percorrere " + userKm + " Km è di " + fullPrice + " €.");
+        document.getElementById("costo-viaggio").innerHTML ="Il prezzo del biglietto per percorrere " + userKm + " Km è di " + fullPrice + " €.";
     }

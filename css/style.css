@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(92, 45, 45);
+}
+
 .container{
     width: 60vh;
     background-color: rgb(98, 148, 75);
     height: 60vh;
     margin: 20vh auto;
+    border-radius: 30px;
 }
 
 .row{
@@ -21,4 +26,13 @@
 
 h1{
     color: rgb(134, 62, 62);
+    margin-bottom: 3rem;
+}
+
+.col{
+    text-align: center;
+}
+
+h3{
+    padding: 0 2rem;
 }
