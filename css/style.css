@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60vh;
+    background-color: rgb(98, 148, 75);
+    height: 60vh;
+    margin: 20vh auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    color: rgb(134, 62, 62);
+}
